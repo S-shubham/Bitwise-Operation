@@ -1,0 +1,12 @@
+// Code a loop in C++ in which the unsigned integer control variable i takes on all values from 0 to and including the maximum unsigned integer
+
+#include<iostream>
+#include<climits>
+using namespace std;
+
+int main()
+{
+	int control=INT_MAX;
+	for(int i=0;i<control;i++)
+	cout<<"i is "<<i <<" \n ";
+}
