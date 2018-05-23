@@ -1,0 +1,14 @@
+// Program to turn on the rightmost 0-bit in a word
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	cout<<"\nEnter the no ";
+	int n;
+	cin>>n;
+	n=n|(n+1);
+	cout<<"\nNumber after turning on the rightmost 0 bit is : "<<n;
+	
+}
