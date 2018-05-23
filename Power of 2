@@ -1,0 +1,19 @@
+// Program to turn off the rightmost set bit in a word
+
+// Program to check if the given number is power of 2 or not
+
+// We will be using bit manipulation
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	cout<<"\n enter the no. : ";
+	int n;
+	cin>>n;
+	if(n&(n-1))
+	cout<<"\n The no is not power of 2 ";
+	else
+	cout<<"\nThe given no is power of 2 ";
+	
+}
