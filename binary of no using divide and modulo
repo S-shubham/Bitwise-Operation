@@ -1,0 +1,29 @@
+// Program to print the binary form of the no 
+// we will find using divide and modulo operation 
+// the idea is to use stack for storing the result
+
+#include<iostream>
+#include<stack>
+using namespace std;
+
+int main()
+{
+	stack <int> s;
+	cout<<"\nEnter the no: ";
+	int n;
+	cin>>n;
+	
+	int temp=n;
+	while(n>0)
+	{
+		s.push(n%2);
+		n=n/2;
+	}
+	
+	while(!s.empty())
+	{
+		int temp=s.top();
+		s.pop();
+		cout<<temp;
+	}
+}
