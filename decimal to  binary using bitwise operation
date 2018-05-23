@@ -1,0 +1,33 @@
+// Finding the binary of input no using bitwise operation
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	cout<<"\nEnter the no : ";
+	int n;
+	cin>>n;
+	int bin[32];
+	int i=0;
+	while(i<32)
+	{
+		if(n^(1<<i))
+		{
+			bin[i]=0;
+		}
+		else
+		{
+			bin[i]=1;
+		}
+		++i;
+	}
+	int flag=0;
+	for(int i=31;i>=0;i--)
+	{
+		if(bin[i]==1)
+		flag=1;
+		if(flag)
+		cout<<bin[i];
+	}
+}
