@@ -1,0 +1,17 @@
+// program to swap two numbers withour using third variable 
+// Do not use any arithmetic operator
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a=10;
+	int b=8;
+	cout<<"\nInitially a is : "<<a<<" and b is "<<b;
+	a=a^b;
+	b=a^b;
+	a=a^b;
+	cout<<"\n now a is "<<a<<" and b is "<<b;
+}
