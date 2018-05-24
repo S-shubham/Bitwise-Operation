@@ -1,0 +1,16 @@
+// WE use n&(n+1) to turn off all the trailing 1 bits in a number
+
+// Program to turn off all the trailing 1 bits in a number
+// n&(n+1) will turn off all the trailing 1's in a number
+// 110011=110000
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"\nEnter the no : ";
+	int n;
+	cin>>n;
+	int temp=n&(n+1);
+	cout<<"\n value of "<<n<<" after modification is : "<<temp;	
+}
