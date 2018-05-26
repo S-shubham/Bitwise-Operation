@@ -5,7 +5,7 @@
 // We will be using bit manipulation
 #include<iostream>
 using namespace std; 
-
+ 
 int main()
 {
 	cout<<"\n enter the no. : ";
