@@ -1,6 +1,6 @@
 // Finding the binary of input no using bitwise operation
 
-#include<iostream>
+#include<iostream> 
 using namespace std; 
 
 int main()  
