@@ -5,7 +5,7 @@
 // 110011=110000
 
 #include<iostream>
-using namespace std;
+using namespace std; 
 int main() 
 {
 	cout<<"\nEnter the no : ";
