@@ -2,7 +2,7 @@
  
 // Program to check if the given number is power of 2 or not
 
-// We will be using bit manipulation 
+// We will be using bit manipulation  
 #include<iostream>
 using namespace std; 
   
